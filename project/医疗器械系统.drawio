@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-02T05:12:50.507Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.59" etag="sIwRe43PCQi0yNzVHOTz" version="14.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-05T07:04:53.478Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.64" etag="KECn6Z5AUQF9n24aRQgo" version="14.8.3" type="github">
   <diagram id="AlL52TTtQJqXHYtBwdI4" name="Page-1">
     <mxGraphModel dx="2062" dy="833" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -103,6 +103,15 @@
         </mxCell>
         <mxCell id="Wp8FiwbMLNDWWem-d0Gy-32" value="服务器及Database数据库:可以每个医院自己的局域网内部署，也可以购买云服务器部署。其中数据库若采用mysql是免费的" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
           <mxGeometry x="470" y="647" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="OkoX--ZSe-7wdzJ4oEpl-1" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.terminal;" vertex="1" parent="1">
+          <mxGeometry x="190" y="885" width="80" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="OkoX--ZSe-7wdzJ4oEpl-2" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.tablet;" vertex="1" parent="1">
+          <mxGeometry x="310" y="880" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="OkoX--ZSe-7wdzJ4oEpl-3" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.mobile;" vertex="1" parent="1">
+          <mxGeometry x="470" y="867.5" width="50" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
