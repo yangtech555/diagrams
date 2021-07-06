@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-05T07:04:53.478Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.64" etag="KECn6Z5AUQF9n24aRQgo" version="14.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-06T19:03:51.574Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.64" etag="P2leCRa6pWgxCo6g5TmR" version="14.8.4" type="github">
   <diagram id="AlL52TTtQJqXHYtBwdI4" name="Page-1">
-    <mxGraphModel dx="2062" dy="833" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2062" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14,9 +14,9 @@
           <mxGeometry x="362" y="320" width="76" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Wp8FiwbMLNDWWem-d0Gy-1" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/SQL_Database.svg;" parent="1" vertex="1">
-          <mxGeometry x="376" y="680" width="48" height="64" as="geometry" />
+          <mxGeometry x="302" y="553" width="48" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="Wp8FiwbMLNDWWem-d0Gy-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Wp8FiwbMLNDWWem-d0Gy-5" target="Wp8FiwbMLNDWWem-d0Gy-1" edge="1">
+        <mxCell id="KJL5pgY2Md6h_XYRIvjo-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Wp8FiwbMLNDWWem-d0Gy-5" target="Wp8FiwbMLNDWWem-d0Gy-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Wp8FiwbMLNDWWem-d0Gy-5" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;" parent="1" vertex="1">
@@ -38,8 +38,8 @@
         <mxCell id="Wp8FiwbMLNDWWem-d0Gy-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Wp8FiwbMLNDWWem-d0Gy-7" target="UQDamrznPKahLI_5t3YA-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Wp8FiwbMLNDWWem-d0Gy-7" value="医疗设备：是一台由PLC控制设备来进行自动化操作" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
-          <mxGeometry x="470" y="195" width="150" height="90" as="geometry" />
+        <mxCell id="Wp8FiwbMLNDWWem-d0Gy-7" value="医疗设备：是一台可编程控制的自动化操作设备" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
+          <mxGeometry x="470" y="207.5" width="150" height="65" as="geometry" />
         </mxCell>
         <mxCell id="Wp8FiwbMLNDWWem-d0Gy-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Wp8FiwbMLNDWWem-d0Gy-8" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -52,7 +52,7 @@
         <mxCell id="Wp8FiwbMLNDWWem-d0Gy-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Wp8FiwbMLNDWWem-d0Gy-13" target="Wp8FiwbMLNDWWem-d0Gy-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Wp8FiwbMLNDWWem-d0Gy-13" value="PC电脑：windows系统，安装控制医疗设备的应用软件，通过串口通信，可发指令让医疗设备执行进行相应的操作，以及读取医疗设备里的数据，然后上传到服务器（可局域网，可云服务器）的数据库进行存储及报表分析展示" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
+        <mxCell id="Wp8FiwbMLNDWWem-d0Gy-13" value="PC电脑：windows系统，安装控制医疗设备的业务系统软件，通过串口通信，可发指令让医疗设备执行进行相应的操作，以及读取医疗设备里的数据，然后上传到服务器（可局域网，可云服务器）的数据库进行存储及报表分析展示" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
           <mxGeometry x="470" y="327.5" width="170" height="162.5" as="geometry" />
         </mxCell>
         <mxCell id="Wp8FiwbMLNDWWem-d0Gy-18" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.copier;" parent="1" vertex="1">
@@ -95,23 +95,67 @@
         <mxCell id="Wp8FiwbMLNDWWem-d0Gy-28" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;" parent="1" vertex="1">
           <mxGeometry x="670" y="370" width="100" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Wp8FiwbMLNDWWem-d0Gy-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.98;entryY=0.98;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Wp8FiwbMLNDWWem-d0Gy-32" target="Wp8FiwbMLNDWWem-d0Gy-5" edge="1">
+        <mxCell id="Wp8FiwbMLNDWWem-d0Gy-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Wp8FiwbMLNDWWem-d0Gy-32" target="Wp8FiwbMLNDWWem-d0Gy-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="697" />
+              <mxPoint x="350" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wp8FiwbMLNDWWem-d0Gy-32" value="服务器及Database数据库" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
+          <mxGeometry x="150" y="664" width="120" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="KJL5pgY2Md6h_XYRIvjo-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="OkoX--ZSe-7wdzJ4oEpl-1" target="Wp8FiwbMLNDWWem-d0Gy-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="810" />
+              <mxPoint x="400" y="810" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OkoX--ZSe-7wdzJ4oEpl-1" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.terminal;" parent="1" vertex="1">
+          <mxGeometry x="200" y="927.5" width="80" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="KJL5pgY2Md6h_XYRIvjo-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="OkoX--ZSe-7wdzJ4oEpl-2" target="Wp8FiwbMLNDWWem-d0Gy-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="870" />
+              <mxPoint x="400" y="870" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OkoX--ZSe-7wdzJ4oEpl-2" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.tablet;" parent="1" vertex="1">
+          <mxGeometry x="350" y="922.5" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KJL5pgY2Md6h_XYRIvjo-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OkoX--ZSe-7wdzJ4oEpl-3" target="Wp8FiwbMLNDWWem-d0Gy-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="810" />
+              <mxPoint x="400" y="810" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OkoX--ZSe-7wdzJ4oEpl-3" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.mobile;" parent="1" vertex="1">
+          <mxGeometry x="530" y="910" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="KJL5pgY2Md6h_XYRIvjo-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KJL5pgY2Md6h_XYRIvjo-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="650" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="350" y="770" />
+              <mxPoint x="350" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KJL5pgY2Md6h_XYRIvjo-1" value="&lt;span&gt;可以每个医院自己的局域网内部署，也可以购买云服务器部署。&lt;/span&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="720" width="165" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KJL5pgY2Md6h_XYRIvjo-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.98;entryY=0.98;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KJL5pgY2Md6h_XYRIvjo-3" target="Wp8FiwbMLNDWWem-d0Gy-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Wp8FiwbMLNDWWem-d0Gy-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Wp8FiwbMLNDWWem-d0Gy-32" target="Wp8FiwbMLNDWWem-d0Gy-1" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Wp8FiwbMLNDWWem-d0Gy-32" value="服务器及Database数据库:可以每个医院自己的局域网内部署，也可以购买云服务器部署。其中数据库若采用mysql是免费的" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
-          <mxGeometry x="470" y="647" width="120" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="OkoX--ZSe-7wdzJ4oEpl-1" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.terminal;" vertex="1" parent="1">
-          <mxGeometry x="190" y="885" width="80" height="65" as="geometry" />
-        </mxCell>
-        <mxCell id="OkoX--ZSe-7wdzJ4oEpl-2" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.tablet;" vertex="1" parent="1">
-          <mxGeometry x="310" y="880" width="100" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="OkoX--ZSe-7wdzJ4oEpl-3" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.mobile;" vertex="1" parent="1">
-          <mxGeometry x="470" y="867.5" width="50" height="100" as="geometry" />
+        <mxCell id="KJL5pgY2Md6h_XYRIvjo-3" value="部署业务系统：如查看设备运行的数据、相应的数据分析、数据报表、医疗设备PC电脑的业务系统运行日志及远程调整相关命令配置等" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="643" width="150" height="127" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
