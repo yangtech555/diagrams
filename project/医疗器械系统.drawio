@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-20T06:21:37.643Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67" etag="0YCIbEvStXRivhdp4wO3" version="14.9.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-20T06:30:56.340Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67" etag="XwQrmSJ2py12rz2RY2OE" version="14.9.0" type="github">
   <diagram id="AlL52TTtQJqXHYtBwdI4" name="Page-1">
     <mxGraphModel dx="2062" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -57,7 +57,7 @@
         <mxCell id="Wp8FiwbMLNDWWem-d0Gy-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Wp8FiwbMLNDWWem-d0Gy-13" target="Wp8FiwbMLNDWWem-d0Gy-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Wp8FiwbMLNDWWem-d0Gy-13" value="【需开发系统1-windows客户端】功能点：1、发指令指挥设备操作；2、发指令读取设备的数据；3、上传数据到服务器存储；4、其他功能。" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+        <mxCell id="Wp8FiwbMLNDWWem-d0Gy-13" value="&lt;font style=&quot;font-size: 14px&quot;&gt;【需开发系统1-windows客户端】功能点：1、发指令指挥设备操作；2、发指令读取设备的数据；3、上传数据到服务器存储；4、其他功能。&lt;/font&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="470" y="327.5" width="170" height="152.5" as="geometry" />
         </mxCell>
         <mxCell id="Wp8FiwbMLNDWWem-d0Gy-18" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.copier;" parent="1" vertex="1">
@@ -154,7 +154,7 @@
         <mxCell id="KJL5pgY2Md6h_XYRIvjo-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.98;entryY=0.98;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="KJL5pgY2Md6h_XYRIvjo-3" target="Wp8FiwbMLNDWWem-d0Gy-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KJL5pgY2Md6h_XYRIvjo-3" value="【需开发系统2-web服务业务系统】功能点：1、接收上面客户端上传的数据进行存储入数据库；2、提供web数据功能，供下面各种终端查阅；3、管理员控制上面的系统1的功能等。" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+        <mxCell id="KJL5pgY2Md6h_XYRIvjo-3" value="&lt;font style=&quot;font-size: 14px&quot;&gt;【需开发系统2-web服务业务系统】功能点：1、接收上面客户端上传的数据进行存储入数据库；2、提供web数据功能，供下面各种终端查阅；3、管理员控制上面的系统1的功能等。&lt;/font&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="470" y="643" width="240" height="127" as="geometry" />
         </mxCell>
         <mxCell id="KJL5pgY2Md6h_XYRIvjo-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="KJL5pgY2Md6h_XYRIvjo-15" target="OkoX--ZSe-7wdzJ4oEpl-1" edge="1">
@@ -172,8 +172,8 @@
         <mxCell id="KJL5pgY2Md6h_XYRIvjo-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="KJL5pgY2Md6h_XYRIvjo-16" target="OkoX--ZSe-7wdzJ4oEpl-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KJL5pgY2Md6h_XYRIvjo-16" value="【需开发系统3-多个终端系统&lt;b&gt;待确认&lt;/b&gt;】（&lt;b&gt;PC网页版、平板H5网页版，手机H5网页版、苹果App、安卓app、微信小程序&lt;/b&gt;）&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 功能点：1、查看设备运行数据；2、查看设备数据报表；3、查看系统1和系统2运行的状态及日志数据" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="285" y="1050" width="230" height="150" as="geometry" />
+        <mxCell id="KJL5pgY2Md6h_XYRIvjo-16" value="&lt;font style=&quot;font-size: 14px&quot;&gt;【需开发系统3-多个终端系统&lt;b&gt;待确认&lt;/b&gt;】（&lt;b&gt;PC网页版、平板H5网页版，手机H5网页版、苹果App、安卓app、微信小程序&lt;/b&gt;）&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 功能点：1、查看设备运行数据；2、查看设备数据报表；3、查看系统1和系统2运行的状态及日志数据&lt;/font&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="285" y="1050" width="230" height="160" as="geometry" />
         </mxCell>
         <mxCell id="KJL5pgY2Md6h_XYRIvjo-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="KJL5pgY2Md6h_XYRIvjo-17" target="OkoX--ZSe-7wdzJ4oEpl-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -190,16 +190,16 @@
         <mxCell id="4tg1DM4MwWeIexpCLwNO-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4tg1DM4MwWeIexpCLwNO-2" target="4tg1DM4MwWeIexpCLwNO-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4tg1DM4MwWeIexpCLwNO-2" value="【&lt;b&gt;客户端&lt;/b&gt;】安装在医疗设备主机上：供业务操作员控制设备操作，客户端上报对应数据给下面的【服务端】存储使用" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4tg1DM4MwWeIexpCLwNO-2" value="&lt;font style=&quot;font-size: 14px&quot;&gt;【&lt;b&gt;客户端&lt;/b&gt;】安装在医疗设备主机上：供业务操作员控制设备操作，客户端上报对应数据给下面的【服务端】存储使用&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="880" y="370" width="350" height="100" as="geometry" />
         </mxCell>
         <mxCell id="4tg1DM4MwWeIexpCLwNO-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.47;entryY=0.021;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4tg1DM4MwWeIexpCLwNO-3" target="4tg1DM4MwWeIexpCLwNO-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4tg1DM4MwWeIexpCLwNO-3" value="【&lt;b&gt;服务端&lt;/b&gt;】部署在服务器上：提供数据上传功能给客户端进行数据上传，并存储到数据库，提供数据接口给下面的【终端客户端】使用" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4tg1DM4MwWeIexpCLwNO-3" value="&lt;font style=&quot;font-size: 14px&quot;&gt;【&lt;b&gt;服务端&lt;/b&gt;】部署在服务器上：提供数据上传功能给客户端进行数据上传，并存储到数据库，提供数据接口给下面的【终端客户端】使用&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="880" y="600" width="350" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="4tg1DM4MwWeIexpCLwNO-4" value="【&lt;b&gt;终端客户端&lt;/b&gt;（电脑手机平板的浏览器或者原生app或者小程序）】业务人员或者管理者查看设备数据，报表等" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4tg1DM4MwWeIexpCLwNO-4" value="&lt;font style=&quot;font-size: 14px&quot;&gt;【&lt;b&gt;终端客户端&lt;/b&gt;（电脑手机平板的浏览器或者原生app或者小程序）】业务人员或者管理者查看设备数据，报表等&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="900" y="907.5" width="330" height="72.5" as="geometry" />
         </mxCell>
       </root>
