@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-20T06:30:56.340Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67" etag="XwQrmSJ2py12rz2RY2OE" version="14.9.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-20T06:35:17.149Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67" etag="Ecw9a_JdHn3qv3C0Zqx0" version="14.9.0" type="github">
   <diagram id="AlL52TTtQJqXHYtBwdI4" name="Page-1">
     <mxGraphModel dx="2062" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -190,14 +190,24 @@
         <mxCell id="4tg1DM4MwWeIexpCLwNO-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4tg1DM4MwWeIexpCLwNO-2" target="4tg1DM4MwWeIexpCLwNO-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="4tg1DM4MwWeIexpCLwNO-8" value="上传数据到下面的服务端" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4tg1DM4MwWeIexpCLwNO-5">
+          <mxGeometry x="-0.2154" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="4tg1DM4MwWeIexpCLwNO-2" value="&lt;font style=&quot;font-size: 14px&quot;&gt;【&lt;b&gt;客户端&lt;/b&gt;】安装在医疗设备主机上：供业务操作员控制设备操作，客户端上报对应数据给下面的【服务端】存储使用&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="880" y="370" width="350" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="4tg1DM4MwWeIexpCLwNO-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.47;entryY=0.021;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4tg1DM4MwWeIexpCLwNO-3" target="4tg1DM4MwWeIexpCLwNO-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="4tg1DM4MwWeIexpCLwNO-3" value="&lt;font style=&quot;font-size: 14px&quot;&gt;【&lt;b&gt;服务端&lt;/b&gt;】部署在服务器上：提供数据上传功能给客户端进行数据上传，并存储到数据库，提供数据接口给下面的【终端客户端】使用&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="880" y="600" width="350" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4tg1DM4MwWeIexpCLwNO-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.529;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4tg1DM4MwWeIexpCLwNO-4" target="4tg1DM4MwWeIexpCLwNO-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4tg1DM4MwWeIexpCLwNO-9" value="读取上面的服务端数据及内容" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4tg1DM4MwWeIexpCLwNO-7">
+          <mxGeometry x="0.1452" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="4tg1DM4MwWeIexpCLwNO-4" value="&lt;font style=&quot;font-size: 14px&quot;&gt;【&lt;b&gt;终端客户端&lt;/b&gt;（电脑手机平板的浏览器或者原生app或者小程序）】业务人员或者管理者查看设备数据，报表等&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="900" y="907.5" width="330" height="72.5" as="geometry" />
