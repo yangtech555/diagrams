@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-20T06:16:42.948Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67" etag="yb5TbLteSzEcfkc_oFpb" version="14.9.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-20T06:18:49.029Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67" etag="6O8iSwFOramJxpTzwZLH" version="14.9.0" type="github">
   <diagram id="AlL52TTtQJqXHYtBwdI4" name="Page-1">
     <mxGraphModel dx="2062" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -187,25 +187,10 @@
         <mxCell id="KJL5pgY2Md6h_XYRIvjo-18" value="手机可提供多个版本：手机浏览器H5版、安卓客户端版、ios客户端版、微信小程序版" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
           <mxGeometry x="670" y="916" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="KJL5pgY2Md6h_XYRIvjo-27" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.chrome" parent="1" vertex="1">
-          <mxGeometry x="130" y="922.5" width="50" height="52" as="geometry" />
-        </mxCell>
-        <mxCell id="KJL5pgY2Md6h_XYRIvjo-28" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.chrome" parent="1" vertex="1">
-          <mxGeometry x="370" y="927.5" width="60" height="57" as="geometry" />
-        </mxCell>
-        <mxCell id="KJL5pgY2Md6h_XYRIvjo-29" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.android;fillColor=#A4CA39;strokeColor=none" parent="1" vertex="1">
-          <mxGeometry x="695" y="839" width="50" height="52" as="geometry" />
-        </mxCell>
-        <mxCell id="KJL5pgY2Md6h_XYRIvjo-30" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.chrome" parent="1" vertex="1">
-          <mxGeometry x="640" y="839" width="50" height="51" as="geometry" />
-        </mxCell>
-        <mxCell id="KJL5pgY2Md6h_XYRIvjo-31" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.apple;fillColor=#1B1C1C;strokeColor=none" parent="1" vertex="1">
-          <mxGeometry x="758" y="830" width="50" height="50" as="geometry" />
-        </mxCell>
         <mxCell id="4tg1DM4MwWeIexpCLwNO-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4tg1DM4MwWeIexpCLwNO-2" target="4tg1DM4MwWeIexpCLwNO-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4tg1DM4MwWeIexpCLwNO-2" value="【客户端】安装在医疗设备主机上：供业务操作员控制设备操作，客户端上报对应数据下面的【服务端】" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4tg1DM4MwWeIexpCLwNO-2" value="【客户端】安装在医疗设备主机上：供业务操作员控制设备操作，客户端上报对应数据给下面的【服务端】存储使用" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="880" y="370" width="350" height="100" as="geometry" />
         </mxCell>
         <mxCell id="4tg1DM4MwWeIexpCLwNO-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.47;entryY=0.021;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4tg1DM4MwWeIexpCLwNO-3" target="4tg1DM4MwWeIexpCLwNO-4">
