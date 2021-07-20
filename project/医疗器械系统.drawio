@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-20T06:11:10.996Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67" etag="i0uTHw_FQtD6ND6U8J6i" version="14.9.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-20T06:16:42.948Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67" etag="yb5TbLteSzEcfkc_oFpb" version="14.9.0" type="github">
   <diagram id="AlL52TTtQJqXHYtBwdI4" name="Page-1">
     <mxGraphModel dx="2062" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -154,7 +154,7 @@
         <mxCell id="KJL5pgY2Md6h_XYRIvjo-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.98;entryY=0.98;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="KJL5pgY2Md6h_XYRIvjo-3" target="Wp8FiwbMLNDWWem-d0Gy-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KJL5pgY2Md6h_XYRIvjo-3" value="【需开发系统2-web服务业务系统】功能点：1、接收上面客户端上传的数据进行存储入数据库；2、提供web数据功能，供下面各种终端查阅；3、控制上面的系统1的功能等。" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+        <mxCell id="KJL5pgY2Md6h_XYRIvjo-3" value="【需开发系统2-web服务业务系统】功能点：1、接收上面客户端上传的数据进行存储入数据库；2、提供web数据功能，供下面各种终端查阅；3、管理员控制上面的系统1的功能等。" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="470" y="643" width="240" height="127" as="geometry" />
         </mxCell>
         <mxCell id="KJL5pgY2Md6h_XYRIvjo-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="KJL5pgY2Md6h_XYRIvjo-15" target="OkoX--ZSe-7wdzJ4oEpl-1" edge="1">
@@ -202,11 +202,20 @@
         <mxCell id="KJL5pgY2Md6h_XYRIvjo-31" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.apple;fillColor=#1B1C1C;strokeColor=none" parent="1" vertex="1">
           <mxGeometry x="758" y="830" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="4tg1DM4MwWeIexpCLwNO-2" value="【客户端】供业务操作员控制设备操作，客户端上报对应数据下面的【服务端】" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4tg1DM4MwWeIexpCLwNO-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4tg1DM4MwWeIexpCLwNO-2" target="4tg1DM4MwWeIexpCLwNO-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4tg1DM4MwWeIexpCLwNO-2" value="【客户端】安装在医疗设备主机上：供业务操作员控制设备操作，客户端上报对应数据下面的【服务端】" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="880" y="370" width="350" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="4tg1DM4MwWeIexpCLwNO-3" value="【服务端】提供数据上传功能给客户端进行数据上传，并存储到数据库，提供数据接口给下面的【终端客户端】使用" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4tg1DM4MwWeIexpCLwNO-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.47;entryY=0.021;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4tg1DM4MwWeIexpCLwNO-3" target="4tg1DM4MwWeIexpCLwNO-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4tg1DM4MwWeIexpCLwNO-3" value="【服务端】部署在服务器上：提供数据上传功能给客户端进行数据上传，并存储到数据库，提供数据接口给下面的【终端客户端】使用" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="880" y="600" width="350" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4tg1DM4MwWeIexpCLwNO-4" value="【终端客户端（电脑手机平板的浏览器或者原生app或者小程序）】业务人员或者管理者查看设备数据，报表等" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="907.5" width="330" height="72.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
