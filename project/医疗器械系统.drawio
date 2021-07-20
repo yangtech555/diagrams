@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-20T06:18:49.029Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67" etag="6O8iSwFOramJxpTzwZLH" version="14.9.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-20T06:19:08.349Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67" etag="msPqQ4wWgvqhqBWASFqA" version="14.9.0" type="github">
   <diagram id="AlL52TTtQJqXHYtBwdI4" name="Page-1">
     <mxGraphModel dx="2062" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -184,7 +184,7 @@
         <mxCell id="KJL5pgY2Md6h_XYRIvjo-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="KJL5pgY2Md6h_XYRIvjo-18" target="OkoX--ZSe-7wdzJ4oEpl-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KJL5pgY2Md6h_XYRIvjo-18" value="手机可提供多个版本：手机浏览器H5版、安卓客户端版、ios客户端版、微信小程序版" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
+        <mxCell id="KJL5pgY2Md6h_XYRIvjo-18" value="手机浏览器H5版、安卓客户端版、ios客户端版、微信小程序版" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
           <mxGeometry x="670" y="916" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="4tg1DM4MwWeIexpCLwNO-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4tg1DM4MwWeIexpCLwNO-2" target="4tg1DM4MwWeIexpCLwNO-3">
